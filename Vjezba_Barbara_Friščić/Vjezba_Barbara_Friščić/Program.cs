@@ -284,7 +284,7 @@ namespace Vjezba_Barbara_Friščić
                 int brojMuskaraca = osobe.Count(o => o.Gender == "m");
                 int osobeDvadesetoSt = osobe.Count(o => o.DOB.Year < 2000);
 
-                return $"Najstarija osoba je: {najstarijaOsoba.FirstName}{najstarijaOsoba.LastName}\nnajmlađa osoba je:{najmladjaOsoba.FirstName}{najmladjaOsoba.LastName}\nbroj muškaraca: {brojMuskaraca}\nbroj zena: {brojZena}\n broj osoba rođenih prije 2000. : {osobeDvadesetoSt}";
+                return $"Najstarija osoba je: {najstarijaOsoba.FirstName} {najstarijaOsoba.LastName}\nnajmlađa osoba je:{najmladjaOsoba.FirstName} {najmladjaOsoba.LastName}\nbroj muškaraca: {brojMuskaraca}\nbroj zena: {brojZena}\n broj osoba rođenih prije 2000. : {osobeDvadesetoSt}";
             }
 
             void Listic()
